@@ -4,14 +4,13 @@
 /// use built-in functions like Contains(), StartsWith(), etc.
 /// 
 
+#region Test Cases
 CheckIf3IsInInteger(3);
+CheckIf3IsInInteger(0);
 CheckIf3IsInInteger(9874903);
 CheckIf3IsInInteger(16984);
-CheckIf3IsInInteger(121113);
-CheckIf3IsInInteger(14313);
 CheckIf3IsInInteger(367765);
-CheckIf3IsInInteger(312);
-
+#endregion
 
 bool CheckIf3IsInInteger(int number)
 {
